@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+p{
+  color:white;
+}
+
+.head {
+    display: flex;
+  }
+
+#header {
+    display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > img {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#logo {
+    width: 150px;
+    padding-top: 5%;
+}
+
+.home {
+  padding-top: 5%;
+}
+
+#imgs2{
+  display:inline;
+}
+
+#services {
+  display: flex;
+}
+
+.serviceimg{
+  width: 2px;
+}
+.footer {
+  position:fixed;
+  bottom:0;
+}
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+  border-radius: 50%;
+  border-color: grey;
+  border-width: 50;
+  border-radius: 2cm;
+}
+
+#aboutText { 
+  color: white;
+  font-size: 20px;
+  word-spacing:15px;
+  letter-spacing: 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:black;
+  color:grey;
+}
+
+.fa-twitter {
+  background:black;
+  color:grey;
+}
+
+.fa-youtube {
+  background:black;
+  color: grey;
+}
+
+ ul {
+    padding-top: 10%;
+    list-style-type: none;
+  }
+ li {
+    display: inline;
+   
+  }
+ li a {
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+  }
+
+  h1{
+      color: white;
+  }
+
+  .active{
+    color: aqua;
+  }
+  
