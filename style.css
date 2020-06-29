@@ -8,6 +8,43 @@ p{
   color:white;
 }
 
+#menimg1{
+  padding-left: 2%;
+  padding-top: 2%;
+  
+}
+
+.mentitle {
+  display: block;
+  max-width: 20%;
+  text-align: center;
+  border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: #525247;
+}
+
+#mentitle1 {
+  padding-left: 2%;
+
+}
+
+#men {
+  width: 100%;
+  padding-top: 0%;
+}
+
+#locator {
+  
+    padding-top: 0%;
+    width: auto
+  
+}
+
+.last {
+  color: white;
+}
+
 .head {
     display: flex;
   }
@@ -53,7 +90,6 @@ p{
   width: 2px;
 }
 .footer {
-  position:fixed;
   bottom:0;
 }
 
@@ -63,7 +99,7 @@ p{
   text-align: center;
   text-decoration: none;
   margin: 3px 2px;
-  border-radius: 50%;
+  border-radius: 40%;
   border-color: grey;
   border-width: 50;
   border-radius: 2cm;
@@ -99,7 +135,7 @@ p{
     padding-top: 10%;
     list-style-type: none;
   }
- li {
+ li, form {
     display: inline;
    
   }
@@ -115,7 +151,178 @@ p{
       color: white;
   }
 
-  .active{
-    color: aqua;
+  .fa ,.fa-caret-down{
+    padding-left: 0%;
+    padding-right: 0%;
   }
   
+  .dropdown {
+    overflow: hidden;
+  
+  }
+  
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: inherit;
+    font-size: large;
+    margin: 0;
+    background-color: black;
+  }
+  
+ .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 14px 16px;
+    text-align: center;
+    min-width: 160px;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    float: right;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color:white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    color: #00b3b3	;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .menimg {
+    max-width: 100%;
+    border-style: solid;
+    border-width: medium;
+  }
+
+  h2 {
+    color:white;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: black;
+    padding-left: 1%;
+  }
+  
+  .flex-container > div {
+    background-color: black;
+    padding: 0px;
+    font-size: 30px;
+  }
+
+  .mendata {
+    background-color: #292924;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 0%;
+    border-right: black;
+    border-right-width: 20px;
+    border-style: solid;
+    color: #e60073;
+    border-color: black;
+  }
+
+  .mendata2 {
+    background-color: #292924;
+    max-width: 90%;
+    text-align: center;
+    padding-top: 0%;
+    border-right: black;
+    border-right-width: 30px;
+    border-style: solid;
+    color: #e60073;
+    border-color: black;
+  }
+
+  .menimg2 {
+    max-width: 100%;
+    border-style: solid;
+    border-width: thin;
+    padding-right: 0px;
+  }
+
+  #row2 {
+    padding-right: 20px
+  }
+
+  #locate {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20%;
+  }
+
+  .gallery {
+    border-style: solid;
+    border-width: 3px;
+    min-width: 20%;
+  }
+
+  .bridal1 {
+    color: lightblue;
+  font-size: 30px;
+  word-spacing:5px;
+  letter-spacing: 2px;
+  }
+
+  .bridal2 {
+    color: #ffff00;
+  font-size: 25px;
+  word-spacing:5px;
+  letter-spacing: 2px;
+  }
+
+  .textbox {
+    background-color: #ffff80;
+    color: black
+  }
+
+  #name, #phone, #locationid {
+    width: 30%;
+    padding-left: 2%;
+  }
+
+  #email {
+    width: 60%;
+  }
+
+  #date {
+    width: 35%
+  }
+
+  #msg {
+    width:95%;
+    height: 200px;
+  }
+
+  #submit {
+    background-color: burlywood;
+    height: 30px;
+  }
+
+  #franchiseetxt {
+    font-size: 25px;
+    word-spacing:5px;
+    letter-spacing: 2px; 
+    padding-right: 2%;
+  }
+
+  #textbox1 {
+    background-color: #00e64d;
+    width: 90%;
+  }
