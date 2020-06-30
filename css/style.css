@@ -29,6 +29,8 @@ p{
 
 }
 
+
+
 #men {
   width: 100%;
   padding-top: 0%;
@@ -208,6 +210,7 @@ p{
     max-width: 100%;
     border-style: solid;
     border-width: medium;
+    padding-right: 2%
   }
 
   h2 {
@@ -227,7 +230,6 @@ p{
   }
 
   .mendata {
-    background-color: #292924;
     max-width: 100%;
     text-align: center;
     padding-top: 0%;
@@ -239,7 +241,6 @@ p{
   }
 
   .mendata2 {
-    background-color: #292924;
     max-width: 90%;
     text-align: center;
     padding-top: 0%;
@@ -254,7 +255,7 @@ p{
     max-width: 100%;
     border-style: solid;
     border-width: thin;
-    padding-right: 0px;
+    padding-right: 2%;
   }
 
   #row2 {
@@ -265,6 +266,7 @@ p{
     height: 100%;
     width: 100%;
     padding-bottom: 20%;
+    border-color: black;
   }
 
   .gallery {
