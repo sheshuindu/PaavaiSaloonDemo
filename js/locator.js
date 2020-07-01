@@ -38,6 +38,7 @@ document.getElementById('State').onchange = () => {
         if (city === 'Chennai') {
             const centers = `
             <select id="center" class="location" style="background-color: black;color: white;width:33%">
+            <option>Select Center</option>
             <option value="Mogappair">Mogappair</option>
            <option value="Adyar">Adyar</option>
         </select>`
@@ -46,6 +47,7 @@ document.getElementById('State').onchange = () => {
         else if (city === 'Coimbatore') {
             const centers = `
             <select id="center" class="location" style="background-color: black;color: white;width:33%">
+            <option>Select Center</option>
             <option>Peelamedu</option>
            <option>Gandhi Nagar</option>
         </select>`
@@ -54,6 +56,7 @@ document.getElementById('State').onchange = () => {
         else if (city === 'Cochin') {
             const centers = `
             <select id="center" class="location" style="background-color: black;color: white;width:33%">
+            <option>Select Center</option>
             <option>Cherai Beach</option>
            <option>Palluruthy</option>
         </select>`
@@ -62,6 +65,7 @@ document.getElementById('State').onchange = () => {
         else if (city === 'Tvm') {
             const centers = `
             <select id="center" class="location" style="background-color: black;color: white;width:33%">
+            <option>Select Center</option>
             <option>Thampanoor</option>
            <option>Kesavadasapuram</option>
         </select>`
@@ -70,6 +74,7 @@ document.getElementById('State').onchange = () => {
         else if (city === 'vijayawada') {
             const centers = `
             <select id="center" class="location" style="background-color: black;color: white;width:33%">
+            <option>Select Center</option>
             <option>Gunadala</option>
            <option>Patamata</option>
         </select>`
@@ -78,6 +83,7 @@ document.getElementById('State').onchange = () => {
         else if (city === 'kurnool') {
             const centers = `
             <select id="center" class="location" style="background-color: black;color: white;width:33%">
+            <option>Select Center</option>
             <option>Kallur</option>
            <option>Baker katta</option>
         </select>`
