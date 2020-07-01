@@ -60,8 +60,8 @@ const quiz = (i) => {
     }
 
     yesButton.onclick = () => {
-        createResponse(yesRes)
         if(flag === 0){
+            createResponse(yesRes)
             yes++
             flag = 1
         }
@@ -69,8 +69,8 @@ const quiz = (i) => {
     }
 
     noButton.onclick = () => {
-        createResponse(noRes)
         if(flag === 0){
+            createResponse(noRes)
             no++
             flag = 1
         }
