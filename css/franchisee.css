@@ -1,0 +1,31 @@
+#button {
+    background-color: cornflowerblue;
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    
+}
+
+#question {
+    font-size: 25px;
+    color: purple
+}
+
+#yesBtn , #noBtn{
+    font-size: 25px;
+    color: purple;
+    background-color: cyan;
+    
+}
+
+#finalres {
+    color: purple;
+    font-size: 25px;
+    padding-bottom: 2%
+}
+
+#response {
+    font-size: 25px;
+    color: purple
+}
